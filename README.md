@@ -2,8 +2,9 @@
 
 [![modules](https://github.com/MorenaDlamini/dotnet-ai-engineering/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/MorenaDlamini/dotnet-ai-engineering/actions/workflows/ci.yml)
 
-A self-verifying learning repository. Every topic I study becomes a **module**: a written
-lesson, a set of failing tests, my solutions, and an honest note about what I still cannot do.
+A self-verifying engineering repository for C#/.NET full stack and AI in .NET. Every topic
+becomes a **module**: a written lesson, a set of failing tests, my solutions, and an honest
+note about what it does not yet cover.
 
 CI runs every module's tests on every push. A module is not finished because I say so.
 It is finished when the tests pass and the checklist in `CONTRIBUTING.md` is met.
@@ -19,7 +20,7 @@ Two side effects, both deliberate:
 - **Retrieval.** Writing exercises for a topic forces the kind of retrieval practice that
   actually moves knowledge into long-term memory. Reading does not.
 - **Evidence.** The output is a public artifact that shows understanding, not just activity.
-  A green CI badge over sixty modules is a different claim from a green commit graph.
+  A green CI badge over every module is a different claim from a green commit graph.
 
 ## Tiers
 
@@ -50,7 +51,7 @@ challenges/        the build ladders, gated stage by stage (phase-00 is level J0
 decisions/         one record per real decision, written at the time
 designs/           one page before any service starts
 scenarios/         ambiguous tickets, practised the way they actually arrive
-horizon/           quarterly review: what is changing in data and security
+horizon/           quarterly review: what is changing in .NET and AI
 research/          the postings and the evidence the curriculum answers to
 templates/         module scaffold
 tools/             new_module.py, status.py, challenges.py
