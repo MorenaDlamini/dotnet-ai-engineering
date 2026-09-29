@@ -1,6 +1,6 @@
-# worked-examples
+# dotnet-ai-engineering
 
-[![modules](https://github.com/MorenaDlamini/worked-examples/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/MorenaDlamini/worked-examples/actions/workflows/ci.yml)
+[![modules](https://github.com/MorenaDlamini/dotnet-ai-engineering/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/MorenaDlamini/dotnet-ai-engineering/actions/workflows/ci.yml)
 
 A self-verifying learning repository. Every topic I study becomes a **module**: a written
 lesson, a set of failing tests, my solutions, and an honest note about what I still cannot do.
@@ -83,6 +83,21 @@ make ladder                                  # regenerate the ladder table
 runs in four levels, Junior, Intermediate, Senior and Mastery. Each phase ends in a capstone,
 and each level ends in a gate passed cold. The flagship project it builds is a South African
 municipal service-delivery tracker.
+
+## Progress through the levels
+
+<!-- PROGRESS:START -->
+**Now:** Junior · J0 — Linux, Git, SDLC and Scrum
+
+| Level | Progress | Phases |
+|---|---|---|
+| Junior | `░░░░░░░░░░░░` 0/72 | 0/6 |
+| Intermediate | `░░░░░░░░░░░░` 0/73 | 0/6 |
+| Senior | `░░░░░░░░░░░░` 0/64 | 0/5 |
+| Mastery | `░░░░░░░░░░░░` 0/22 | 0/4 |
+
+Every item links to its evidence in [PROGRESS.md](PROGRESS.md), and on the [dashboard](https://morenadlamini.github.io/dotnet-ai-engineering/).
+<!-- PROGRESS:END -->
 
 ## Challenges
 

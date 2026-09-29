@@ -1,0 +1,1668 @@
+{
+  "done": 0,
+  "total": 231,
+  "current": {
+    "level": "Junior",
+    "phase": "J0",
+    "title": "Linux, Git, SDLC and Scrum"
+  },
+  "by_type": {
+    "course": {
+      "done": 0,
+      "total": 107
+    },
+    "mini": {
+      "done": 0,
+      "total": 66
+    },
+    "capstone": {
+      "done": 0,
+      "total": 24
+    },
+    "exit": {
+      "done": 0,
+      "total": 17
+    },
+    "cert": {
+      "done": 0,
+      "total": 9
+    },
+    "gate": {
+      "done": 0,
+      "total": 8
+    }
+  },
+  "levels": [
+    {
+      "id": "junior",
+      "name": "Junior",
+      "tagline": "C# full stack, AI-ready",
+      "gate": "Ship a small full-stack app with an LLM feature, containerised, in CI and on Azure, built with an AI coding assistant used responsibly.",
+      "done": 0,
+      "total": 72,
+      "phases_done": 0,
+      "phases_total": 6,
+      "phases": [
+        {
+          "id": "J0",
+          "title": "Linux, Git, SDLC and Scrum",
+          "done": 0,
+          "total": 12,
+          "complete": false,
+          "items": [
+            {
+              "id": "J0.c1",
+              "type": "course",
+              "title": "Udemy · Imran Afzal · Complete Linux Training Course",
+              "evidence": null
+            },
+            {
+              "id": "J0.c2",
+              "type": "course",
+              "title": "Udemy · Complete SDLC: Software Development Life Cycle (2026)",
+              "evidence": null
+            },
+            {
+              "id": "J0.c3",
+              "type": "course",
+              "title": "Udemy · 365 Careers · Complete Agile & Scrum Project Management Course",
+              "evidence": null
+            },
+            {
+              "id": "J0.c4",
+              "type": "course",
+              "title": "Dometrain · Hands-On: Learn Git From Scratch",
+              "evidence": null
+            },
+            {
+              "id": "J0.c5",
+              "type": "course",
+              "title": "Dometrain · ZTH: GitHub Actions",
+              "evidence": null
+            },
+            {
+              "id": "J0.c6",
+              "type": "course",
+              "title": "Dometrain · GS: Claude Code",
+              "evidence": null
+            },
+            {
+              "id": "J0.m1",
+              "type": "mini",
+              "title": "Users-and-permissions script and a systemd timer",
+              "evidence": null
+            },
+            {
+              "id": "J0.m2",
+              "type": "mini",
+              "title": "Log report with grep, sed and awk",
+              "evidence": null
+            },
+            {
+              "id": "J0.m3",
+              "type": "mini",
+              "title": "GitHub Actions workflow",
+              "evidence": null
+            },
+            {
+              "id": "J0.m4",
+              "type": "mini",
+              "title": "Issue form and PR template reused by every later repo",
+              "evidence": null
+            },
+            {
+              "id": "J0.cap",
+              "type": "capstone",
+              "title": "logkit, run as the first full sprint",
+              "evidence": null
+            },
+            {
+              "id": "J0.exit",
+              "type": "exit",
+              "title": "Explain the CI file line by line to another person",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "J1",
+          "title": "C# and the core data structures",
+          "done": 0,
+          "total": 13,
+          "complete": false,
+          "items": [
+            {
+              "id": "J1.c1",
+              "type": "course",
+              "title": "Dometrain · GS: C#",
+              "evidence": null
+            },
+            {
+              "id": "J1.c2",
+              "type": "course",
+              "title": "Dometrain · Hands-On: C# for Beginners",
+              "evidence": null
+            },
+            {
+              "id": "J1.c3",
+              "type": "course",
+              "title": "Dometrain · ZTH: Working with Null in C#",
+              "evidence": null
+            },
+            {
+              "id": "J1.c4",
+              "type": "course",
+              "title": "Dometrain · ZTH: LINQ in .NET",
+              "evidence": null
+            },
+            {
+              "id": "J1.c5",
+              "type": "course",
+              "title": "Dometrain · Hands-On: LINQ in C#",
+              "evidence": null
+            },
+            {
+              "id": "J1.c6",
+              "type": "course",
+              "title": "Dometrain · DD: C#",
+              "evidence": null
+            },
+            {
+              "id": "J1.c7",
+              "type": "course",
+              "title": "Dometrain · Hands-On: Data Structures & Algorithms in C# (chapters 1–9)",
+              "evidence": null
+            },
+            {
+              "id": "J1.m1",
+              "type": "mini",
+              "title": "Value objects",
+              "evidence": null
+            },
+            {
+              "id": "J1.m2",
+              "type": "mini",
+              "title": "Report CSV parser with line-level errors",
+              "evidence": null
+            },
+            {
+              "id": "J1.m3",
+              "type": "mini",
+              "title": "Linked list, stack and queue from scratch",
+              "evidence": null
+            },
+            {
+              "id": "J1.m4",
+              "type": "mini",
+              "title": "Three sorts, benchmarked",
+              "evidence": null
+            },
+            {
+              "id": "J1.cap",
+              "type": "capstone",
+              "title": "fault-cli: import, validate, de-duplicate, report age by ward",
+              "evidence": null
+            },
+            {
+              "id": "J1.exit",
+              "type": "exit",
+              "title": "Rebuild fault-cli from a blank repo; HackerRank C# (Basic)",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "J2",
+          "title": "SQL Server and T-SQL",
+          "done": 0,
+          "total": 8,
+          "complete": false,
+          "items": [
+            {
+              "id": "J2.c1",
+              "type": "course",
+              "title": "Udemy · Phillip Burton · 70-461/761 Querying SQL Server with T-SQL",
+              "evidence": null
+            },
+            {
+              "id": "J2.c2",
+              "type": "course",
+              "title": "Dometrain · GS: SQL Server",
+              "evidence": null
+            },
+            {
+              "id": "J2.m1",
+              "type": "mini",
+              "title": "CTEs and window functions",
+              "evidence": null
+            },
+            {
+              "id": "J2.m2",
+              "type": "mini",
+              "title": "MERGE upsert",
+              "evidence": null
+            },
+            {
+              "id": "J2.m3",
+              "type": "mini",
+              "title": "Stored procedure with TRY/CATCH",
+              "evidence": null
+            },
+            {
+              "id": "J2.m4",
+              "type": "mini",
+              "title": "Normalised schema from a messy spreadsheet",
+              "evidence": null
+            },
+            {
+              "id": "J2.cap",
+              "type": "capstone",
+              "title": "Tracker schema on real Municipal Money data, five accountability queries",
+              "evidence": null
+            },
+            {
+              "id": "J2.exit",
+              "type": "exit",
+              "title": "HackerRank SQL (Basic)",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "J3",
+          "title": "ASP.NET Core Web API, EF Core and testing",
+          "done": 0,
+          "total": 11,
+          "complete": false,
+          "items": [
+            {
+              "id": "J3.c1",
+              "type": "course",
+              "title": "Dometrain · GS: ASP.NET Core",
+              "evidence": null
+            },
+            {
+              "id": "J3.c2",
+              "type": "course",
+              "title": "Dometrain · ZTH: REST APIs in .NET",
+              "evidence": null
+            },
+            {
+              "id": "J3.c3",
+              "type": "course",
+              "title": "Dometrain · ZTH: Minimal APIs",
+              "evidence": null
+            },
+            {
+              "id": "J3.c4",
+              "type": "course",
+              "title": "Dometrain · ZTH: Entity Framework Core",
+              "evidence": null
+            },
+            {
+              "id": "J3.c5",
+              "type": "course",
+              "title": "Dometrain · ZTH: Unit Testing for C# Developers",
+              "evidence": null
+            },
+            {
+              "id": "J3.c6",
+              "type": "course",
+              "title": "Dometrain · ZTH: Testing with xUnit",
+              "evidence": null
+            },
+            {
+              "id": "J3.m1",
+              "type": "mini",
+              "title": "Municipal Money API client with retries",
+              "evidence": null
+            },
+            {
+              "id": "J3.m2",
+              "type": "mini",
+              "title": "Validation returning Problem Details",
+              "evidence": null
+            },
+            {
+              "id": "J3.m3",
+              "type": "mini",
+              "title": "EF Core migrations",
+              "evidence": null
+            },
+            {
+              "id": "J3.cap",
+              "type": "capstone",
+              "title": "Tracker API v1 with OpenAPI and unit tests",
+              "evidence": null
+            },
+            {
+              "id": "J3.exit",
+              "type": "exit",
+              "title": "Add an endpoint test-first, explaining each step",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "J4",
+          "title": "TypeScript and React",
+          "done": 0,
+          "total": 9,
+          "complete": false,
+          "items": [
+            {
+              "id": "J4.c1",
+              "type": "course",
+              "title": "Dometrain · GS: TypeScript",
+              "evidence": null
+            },
+            {
+              "id": "J4.c2",
+              "type": "course",
+              "title": "Dometrain · Hands-On: Learn TypeScript",
+              "evidence": null
+            },
+            {
+              "id": "J4.c3",
+              "type": "course",
+              "title": "Udemy · Maximilian Schwarzmüller · React – The Complete Guide",
+              "evidence": null
+            },
+            {
+              "id": "J4.m1",
+              "type": "mini",
+              "title": "Responsive layout",
+              "evidence": null
+            },
+            {
+              "id": "J4.m2",
+              "type": "mini",
+              "title": "Typed API client",
+              "evidence": null
+            },
+            {
+              "id": "J4.m3",
+              "type": "mini",
+              "title": "Report form with photo and GPS",
+              "evidence": null
+            },
+            {
+              "id": "J4.m4",
+              "type": "mini",
+              "title": "Searchable report list",
+              "evidence": null
+            },
+            {
+              "id": "J4.cap",
+              "type": "capstone",
+              "title": "Public React portal: file, track by reference, ward page",
+              "evidence": null
+            },
+            {
+              "id": "J4.exit",
+              "type": "exit",
+              "title": "New screen from a user story, no tutorial open",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "J5",
+          "title": "LLMs in C#, AI coding assistants, and shipping",
+          "done": 0,
+          "total": 15,
+          "complete": false,
+          "items": [
+            {
+              "id": "J5.c1",
+              "type": "course",
+              "title": "Dometrain · GS: AI for .NET Developers",
+              "evidence": null
+            },
+            {
+              "id": "J5.c2",
+              "type": "course",
+              "title": "Dometrain · GS: AI Agents in C#",
+              "evidence": null
+            },
+            {
+              "id": "J5.c3",
+              "type": "course",
+              "title": "Dometrain · DD: Claude Code",
+              "evidence": null
+            },
+            {
+              "id": "J5.c4",
+              "type": "course",
+              "title": "Dometrain · ZTH: Working with GitHub Copilot",
+              "evidence": null
+            },
+            {
+              "id": "J5.c5",
+              "type": "course",
+              "title": "Dometrain · ZTH: Docker for Developers",
+              "evidence": null
+            },
+            {
+              "id": "J5.c6",
+              "type": "course",
+              "title": "Dometrain · ZTH: Docker Compose",
+              "evidence": null
+            },
+            {
+              "id": "J5.c7",
+              "type": "course",
+              "title": "Dometrain · GS: Azure for Developers",
+              "evidence": null
+            },
+            {
+              "id": "J5.c8",
+              "type": "course",
+              "title": "DeepLearning.AI · ChatGPT Prompt Engineering for Developers",
+              "evidence": null
+            },
+            {
+              "id": "J5.c9",
+              "type": "course",
+              "title": "DeepLearning.AI · Building Systems with the ChatGPT API",
+              "evidence": null
+            },
+            {
+              "id": "J5.m1",
+              "type": "mini",
+              "title": "One classifier on OpenAI and Anthropic behind IChatClient",
+              "evidence": null
+            },
+            {
+              "id": "J5.m2",
+              "type": "mini",
+              "title": "Structured JSON output",
+              "evidence": null
+            },
+            {
+              "id": "J5.m3",
+              "type": "mini",
+              "title": "Cost logging",
+              "evidence": null
+            },
+            {
+              "id": "J5.m4",
+              "type": "mini",
+              "title": "CLAUDE.md and a custom command",
+              "evidence": null
+            },
+            {
+              "id": "J5.cap",
+              "type": "capstone",
+              "title": "AI triage and summaries, provider switch, containerised, CI, on Azure",
+              "evidence": null
+            },
+            {
+              "id": "J5.exit",
+              "type": "exit",
+              "title": "Demo it and explain every AI-generated line kept",
+              "evidence": null
+            }
+          ]
+        }
+      ],
+      "gate_items": [
+        {
+          "id": "J.cert1",
+          "type": "cert",
+          "title": "DP-900 Azure Data Fundamentals",
+          "evidence": null
+        },
+        {
+          "id": "J.cert2",
+          "type": "cert",
+          "title": "SC-900 Security, Compliance & Identity Fundamentals",
+          "evidence": null
+        },
+        {
+          "id": "J.star",
+          "type": "gate",
+          "title": "Three STAR answers: a design decision, a testing choice, the incident",
+          "evidence": null
+        },
+        {
+          "id": "J.oral",
+          "type": "gate",
+          "title": "Cold oral check on any file in the capstone",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "name": "Intermediate",
+      "tagline": "Own features end to end",
+      "gate": "Own features end to end in a layered .NET system — tuned SQL, concurrent code, Angular or React, CI/CD on Azure DevOps, and a RAG feature whose evals gate the build.",
+      "done": 0,
+      "total": 73,
+      "phases_done": 0,
+      "phases_total": 6,
+      "phases": [
+        {
+          "id": "I1",
+          "title": "C# depth, concurrency and the rest of DSA",
+          "done": 0,
+          "total": 13,
+          "complete": false,
+          "items": [
+            {
+              "id": "I1.c1",
+              "type": "course",
+              "title": "Dometrain · ZTH: Asynchronous Programming in C#",
+              "evidence": null
+            },
+            {
+              "id": "I1.c2",
+              "type": "course",
+              "title": "Dometrain · ZTH: Parallel Programming in C#",
+              "evidence": null
+            },
+            {
+              "id": "I1.c3",
+              "type": "course",
+              "title": "Dometrain · ZTH: Dependency Injection",
+              "evidence": null
+            },
+            {
+              "id": "I1.c4",
+              "type": "course",
+              "title": "Dometrain · ZTH: Configuration and Options",
+              "evidence": null
+            },
+            {
+              "id": "I1.c5",
+              "type": "course",
+              "title": "Dometrain · ZTH: Logging in .NET",
+              "evidence": null
+            },
+            {
+              "id": "I1.c6",
+              "type": "course",
+              "title": "Dometrain · Mastering: C#",
+              "evidence": null
+            },
+            {
+              "id": "I1.c7",
+              "type": "course",
+              "title": "Dometrain · Hands-On: Data Structures & Algorithms in C# (remaining chapters)",
+              "evidence": null
+            },
+            {
+              "id": "I1.m1",
+              "type": "mini",
+              "title": "Channel<T> pipeline",
+              "evidence": null
+            },
+            {
+              "id": "I1.m2",
+              "type": "mini",
+              "title": "Race condition reproduced and fixed",
+              "evidence": null
+            },
+            {
+              "id": "I1.m3",
+              "type": "mini",
+              "title": "Trie for street-name search",
+              "evidence": null
+            },
+            {
+              "id": "I1.m4",
+              "type": "mini",
+              "title": "Dijkstra on a ward graph",
+              "evidence": null
+            },
+            {
+              "id": "I1.cap",
+              "type": "capstone",
+              "title": "Concurrent near-duplicate detection worker, benchmarked",
+              "evidence": null
+            },
+            {
+              "id": "I1.exit",
+              "type": "exit",
+              "title": "HackerRank Problem Solving (Intermediate)",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "I2",
+          "title": "Data access depth and legacy code",
+          "done": 0,
+          "total": 13,
+          "complete": false,
+          "items": [
+            {
+              "id": "I2.c1",
+              "type": "course",
+              "title": "Dometrain · ZTH: Entity Framework Core (chapters 7–9)",
+              "evidence": null
+            },
+            {
+              "id": "I2.c2",
+              "type": "course",
+              "title": "Dometrain · ZTH: Dapper",
+              "evidence": null
+            },
+            {
+              "id": "I2.c3",
+              "type": "course",
+              "title": "Dometrain · Hands-On: Learn PostgreSQL (from Indexes)",
+              "evidence": null
+            },
+            {
+              "id": "I2.c4",
+              "type": "course",
+              "title": "Dometrain · ZTH: Integration Testing in ASP.NET Core",
+              "evidence": null
+            },
+            {
+              "id": "I2.c5",
+              "type": "course",
+              "title": "Dometrain · Migrating: ASP.NET Web APIs to ASP.NET Core",
+              "evidence": null
+            },
+            {
+              "id": "I2.c6",
+              "type": "course",
+              "title": "Udemy · Phillip Burton · DP-800 prep",
+              "evidence": null
+            },
+            {
+              "id": "I2.m1",
+              "type": "mini",
+              "title": "Scan to seek",
+              "evidence": null
+            },
+            {
+              "id": "I2.m2",
+              "type": "mini",
+              "title": "Parameter sniffing fixed",
+              "evidence": null
+            },
+            {
+              "id": "I2.m3",
+              "type": "mini",
+              "title": "Deadlock reproduced and fixed",
+              "evidence": null
+            },
+            {
+              "id": "I2.m4",
+              "type": "mini",
+              "title": "Same query in EF Core and Dapper",
+              "evidence": null
+            },
+            {
+              "id": "I2.m5",
+              "type": "mini",
+              "title": "Vector search in SQL Server",
+              "evidence": null
+            },
+            {
+              "id": "I2.cap",
+              "type": "capstone",
+              "title": "API v2: tuned accountability dashboards, integration tests on real SQL Server",
+              "evidence": null
+            },
+            {
+              "id": "I2.exit",
+              "type": "exit",
+              "title": "Explain an unfamiliar plan; HackerRank SQL (Intermediate)",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "I3",
+          "title": "Architecture",
+          "done": 0,
+          "total": 10,
+          "complete": false,
+          "items": [
+            {
+              "id": "I3.c1",
+              "type": "course",
+              "title": "Dometrain · Hands-On: Creational, Structural and Behavioral Design Patterns",
+              "evidence": null
+            },
+            {
+              "id": "I3.c2",
+              "type": "course",
+              "title": "Dometrain · GS and DD: Clean Architecture",
+              "evidence": null
+            },
+            {
+              "id": "I3.c3",
+              "type": "course",
+              "title": "Dometrain · ZTH: Vertical Slice Architecture",
+              "evidence": null
+            },
+            {
+              "id": "I3.c4",
+              "type": "course",
+              "title": "Dometrain · GS and DD: Domain-Driven Design",
+              "evidence": null
+            },
+            {
+              "id": "I3.c5",
+              "type": "course",
+              "title": "Dometrain · GS and DD: Modular Monoliths",
+              "evidence": null
+            },
+            {
+              "id": "I3.m1",
+              "type": "mini",
+              "title": "Three patterns on real code",
+              "evidence": null
+            },
+            {
+              "id": "I3.m2",
+              "type": "mini",
+              "title": "CQRS read model",
+              "evidence": null
+            },
+            {
+              "id": "I3.m3",
+              "type": "mini",
+              "title": "Event-storming board for report intake",
+              "evidence": null
+            },
+            {
+              "id": "I3.cap",
+              "type": "capstone",
+              "title": "Modular monolith with decision records and the Open311 contract",
+              "evidence": null
+            },
+            {
+              "id": "I3.exit",
+              "type": "exit",
+              "title": "Defend the module boundaries, two options stated fairly",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "I4",
+          "title": "Angular and end-to-end testing",
+          "done": 0,
+          "total": 8,
+          "complete": false,
+          "items": [
+            {
+              "id": "I4.c1",
+              "type": "course",
+              "title": "Udemy · Maximilian Schwarzmüller · Angular – The Complete Guide",
+              "evidence": null
+            },
+            {
+              "id": "I4.c2",
+              "type": "course",
+              "title": "Udemy · Karthik K.K. · Playwright in C# .NET",
+              "evidence": null
+            },
+            {
+              "id": "I4.m1",
+              "type": "mini",
+              "title": "Signals-based component",
+              "evidence": null
+            },
+            {
+              "id": "I4.m2",
+              "type": "mini",
+              "title": "Reactive form",
+              "evidence": null
+            },
+            {
+              "id": "I4.m3",
+              "type": "mini",
+              "title": "Same screen in React and Angular",
+              "evidence": null
+            },
+            {
+              "id": "I4.m4",
+              "type": "mini",
+              "title": "Playwright page-object suite",
+              "evidence": null
+            },
+            {
+              "id": "I4.cap",
+              "type": "capstone",
+              "title": "Angular triage console; Playwright over both front ends",
+              "evidence": null
+            },
+            {
+              "id": "I4.exit",
+              "type": "exit",
+              "title": "Playwright suite green in CI",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "I5",
+          "title": "Azure and CI/CD with Azure DevOps",
+          "done": 0,
+          "total": 13,
+          "complete": false,
+          "items": [
+            {
+              "id": "I5.c1",
+              "type": "course",
+              "title": "Dometrain · ZTH: Deploying .NET Applications to Azure",
+              "evidence": null
+            },
+            {
+              "id": "I5.c2",
+              "type": "course",
+              "title": "Dometrain · DD: Azure for Developers",
+              "evidence": null
+            },
+            {
+              "id": "I5.c3",
+              "type": "course",
+              "title": "Dometrain · GS: Aspire",
+              "evidence": null
+            },
+            {
+              "id": "I5.c4",
+              "type": "course",
+              "title": "Dometrain · Exam Prep: AZ-104",
+              "evidence": null
+            },
+            {
+              "id": "I5.c5",
+              "type": "course",
+              "title": "Udemy · Phillip Burton · AZ-900",
+              "evidence": null
+            },
+            {
+              "id": "I5.c6",
+              "type": "course",
+              "title": "Udemy · Scott Duffy · AZ-104",
+              "evidence": null
+            },
+            {
+              "id": "I5.c7",
+              "type": "course",
+              "title": "Udemy · Zeal Vora · Terraform Associate",
+              "evidence": null
+            },
+            {
+              "id": "I5.m1",
+              "type": "mini",
+              "title": "Multi-stage YAML pipeline",
+              "evidence": null
+            },
+            {
+              "id": "I5.m2",
+              "type": "mini",
+              "title": "Deployment slot swap",
+              "evidence": null
+            },
+            {
+              "id": "I5.m3",
+              "type": "mini",
+              "title": "Blob and queue integration",
+              "evidence": null
+            },
+            {
+              "id": "I5.m4",
+              "type": "mini",
+              "title": "One sprint in Azure DevOps Boards",
+              "evidence": null
+            },
+            {
+              "id": "I5.cap",
+              "type": "capstone",
+              "title": "Azure DevOps multi-stage deploy to Azure, infrastructure in Terraform",
+              "evidence": null
+            },
+            {
+              "id": "I5.exit",
+              "type": "exit",
+              "title": "Roll back a bad deploy",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "I6",
+          "title": "RAG and evals",
+          "done": 0,
+          "total": 11,
+          "complete": false,
+          "items": [
+            {
+              "id": "I6.c1",
+              "type": "course",
+              "title": "Dometrain · ZTH: Microsoft.Extensions.AI",
+              "evidence": null
+            },
+            {
+              "id": "I6.c2",
+              "type": "course",
+              "title": "Dometrain · Let's Build It: AI Chatbot with RAG in .NET",
+              "evidence": null
+            },
+            {
+              "id": "I6.c3",
+              "type": "course",
+              "title": "DeepLearning.AI · Vector Databases",
+              "evidence": null
+            },
+            {
+              "id": "I6.c4",
+              "type": "course",
+              "title": "DeepLearning.AI · Building and Evaluating Advanced RAG",
+              "evidence": null
+            },
+            {
+              "id": "I6.c5",
+              "type": "course",
+              "title": "DeepLearning.AI · Evaluating AI Agents",
+              "evidence": null
+            },
+            {
+              "id": "I6.m1",
+              "type": "mini",
+              "title": "Embeddings search",
+              "evidence": null
+            },
+            {
+              "id": "I6.m2",
+              "type": "mini",
+              "title": "Chunking strategies compared",
+              "evidence": null
+            },
+            {
+              "id": "I6.m3",
+              "type": "mini",
+              "title": "LLM-as-judge harness in xUnit",
+              "evidence": null
+            },
+            {
+              "id": "I6.m4",
+              "type": "mini",
+              "title": "Prompt-injection test set",
+              "evidence": null
+            },
+            {
+              "id": "I6.cap",
+              "type": "capstone",
+              "title": "Ask your municipality: RAG with citations, evals gating CI",
+              "evidence": null
+            },
+            {
+              "id": "I6.exit",
+              "type": "exit",
+              "title": "Eval results reported honestly, failures included",
+              "evidence": null
+            }
+          ]
+        }
+      ],
+      "gate_items": [
+        {
+          "id": "I.cert1",
+          "type": "cert",
+          "title": "AZ-104 Azure Administrator",
+          "evidence": null
+        },
+        {
+          "id": "I.cert2",
+          "type": "cert",
+          "title": "DP-800 SQL AI Developer",
+          "evidence": null
+        },
+        {
+          "id": "I.cert3",
+          "type": "cert",
+          "title": "Terraform Associate 004",
+          "evidence": null
+        },
+        {
+          "id": "I.star",
+          "type": "gate",
+          "title": "Three STAR answers: a design decision, a testing choice, the incident",
+          "evidence": null
+        },
+        {
+          "id": "I.oral",
+          "type": "gate",
+          "title": "Cold oral check on any file in the capstone",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "name": "Senior",
+      "tagline": "Distributed, secure, cloud-native, agentic",
+      "gate": "Design and run distributed, secure, cloud-native .NET systems with agentic AI; work in Python for AI services; mentor through code review.",
+      "done": 0,
+      "total": 64,
+      "phases_done": 0,
+      "phases_total": 5,
+      "phases": [
+        {
+          "id": "S1",
+          "title": "Messaging, resilience and observability",
+          "done": 0,
+          "total": 15,
+          "complete": false,
+          "items": [
+            {
+              "id": "S1.c1",
+              "type": "course",
+              "title": "Dometrain · GS: Messaging with MassTransit",
+              "evidence": null
+            },
+            {
+              "id": "S1.c2",
+              "type": "course",
+              "title": "Dometrain · ZTH: Event-Driven Architecture",
+              "evidence": null
+            },
+            {
+              "id": "S1.c3",
+              "type": "course",
+              "title": "Dometrain · ZTH: Background Processing",
+              "evidence": null
+            },
+            {
+              "id": "S1.c4",
+              "type": "course",
+              "title": "Dometrain · GS and DD: Caching",
+              "evidence": null
+            },
+            {
+              "id": "S1.c5",
+              "type": "course",
+              "title": "Dometrain · GS and DD: Microservices Architecture",
+              "evidence": null
+            },
+            {
+              "id": "S1.c6",
+              "type": "course",
+              "title": "Dometrain · GS: Event Sourcing",
+              "evidence": null
+            },
+            {
+              "id": "S1.c7",
+              "type": "course",
+              "title": "Dometrain · ZTH: OpenTelemetry",
+              "evidence": null
+            },
+            {
+              "id": "S1.c8",
+              "type": "course",
+              "title": "Udemy · Stephane Maarek · Apache Kafka for Beginners",
+              "evidence": null
+            },
+            {
+              "id": "S1.m1",
+              "type": "mini",
+              "title": "Outbox",
+              "evidence": null
+            },
+            {
+              "id": "S1.m2",
+              "type": "mini",
+              "title": "Saga with compensation",
+              "evidence": null
+            },
+            {
+              "id": "S1.m3",
+              "type": "mini",
+              "title": "Retry, timeout and circuit breaker",
+              "evidence": null
+            },
+            {
+              "id": "S1.m4",
+              "type": "mini",
+              "title": "Same flow on RabbitMQ and Kafka",
+              "evidence": null
+            },
+            {
+              "id": "S1.m5",
+              "type": "mini",
+              "title": "Redis caching with correct invalidation",
+              "evidence": null
+            },
+            {
+              "id": "S1.cap",
+              "type": "capstone",
+              "title": "Event-driven notifications with outbox, sagas, traces, Open311 contract tests",
+              "evidence": null
+            },
+            {
+              "id": "S1.exit",
+              "type": "exit",
+              "title": "Kill the provider mid-run: nothing lost, nothing sent twice",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "title": "Security, identity and POPIA",
+          "done": 0,
+          "total": 10,
+          "complete": false,
+          "items": [
+            {
+              "id": "S2.c1",
+              "type": "course",
+              "title": "Dometrain · GS: Authentication and Authorization in .NET",
+              "evidence": null
+            },
+            {
+              "id": "S2.c2",
+              "type": "course",
+              "title": "Dometrain · Mastering: Azure for Developers",
+              "evidence": null
+            },
+            {
+              "id": "S2.c3",
+              "type": "course",
+              "title": "Udemy · Aref Karimi · Modern Identity and Security for ASP.NET Core",
+              "evidence": null
+            },
+            {
+              "id": "S2.c4",
+              "type": "course",
+              "title": "Udemy · OWASP API Top 10",
+              "evidence": null
+            },
+            {
+              "id": "S2.c5",
+              "type": "course",
+              "title": "Udemy · SC-500 prep",
+              "evidence": null
+            },
+            {
+              "id": "S2.m1",
+              "type": "mini",
+              "title": "Insecure API, then fixed",
+              "evidence": null
+            },
+            {
+              "id": "S2.m2",
+              "type": "mini",
+              "title": "Strict JWT validation",
+              "evidence": null
+            },
+            {
+              "id": "S2.m3",
+              "type": "mini",
+              "title": "Managed identity to Key Vault",
+              "evidence": null
+            },
+            {
+              "id": "S2.cap",
+              "type": "capstone",
+              "title": "Entra ID via BFF, no secrets, tenant isolation, POPIA controls",
+              "evidence": null
+            },
+            {
+              "id": "S2.exit",
+              "type": "exit",
+              "title": "Walk the token flow; cross-tenant request refused",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "title": "Cloud-native IaC, Kubernetes and GraphQL",
+          "done": 0,
+          "total": 13,
+          "complete": false,
+          "items": [
+            {
+              "id": "S3.c1",
+              "type": "course",
+              "title": "Dometrain · GS: Bicep for Azure",
+              "evidence": null
+            },
+            {
+              "id": "S3.c2",
+              "type": "course",
+              "title": "Dometrain · ZTH: Kubernetes for Developers",
+              "evidence": null
+            },
+            {
+              "id": "S3.c3",
+              "type": "course",
+              "title": "Dometrain · ZTH: Serverless with Azure Functions",
+              "evidence": null
+            },
+            {
+              "id": "S3.c4",
+              "type": "course",
+              "title": "Dometrain · ZTH: Cloud Architecture in Azure",
+              "evidence": null
+            },
+            {
+              "id": "S3.c5",
+              "type": "course",
+              "title": "Dometrain · GS: GraphQL in .NET",
+              "evidence": null
+            },
+            {
+              "id": "S3.c6",
+              "type": "course",
+              "title": "Udemy · Mumshad Mannambeth · CKA",
+              "evidence": null
+            },
+            {
+              "id": "S3.c7",
+              "type": "course",
+              "title": "Udemy · Alan Rodrigues · AZ-400",
+              "evidence": null
+            },
+            {
+              "id": "S3.m1",
+              "type": "mini",
+              "title": "Bicep module, then the same in Terraform",
+              "evidence": null
+            },
+            {
+              "id": "S3.m2",
+              "type": "mini",
+              "title": "Helm chart",
+              "evidence": null
+            },
+            {
+              "id": "S3.m3",
+              "type": "mini",
+              "title": "GraphQL endpoint",
+              "evidence": null
+            },
+            {
+              "id": "S3.m4",
+              "type": "mini",
+              "title": "SLO alert",
+              "evidence": null
+            },
+            {
+              "id": "S3.cap",
+              "type": "capstone",
+              "title": "Bicep on AKS, GraphQL for partners, integration tests on floci-az",
+              "evidence": null
+            },
+            {
+              "id": "S3.exit",
+              "type": "exit",
+              "title": "Empty subscription to live system, and back",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "title": "Python for AI services",
+          "done": 0,
+          "total": 8,
+          "complete": false,
+          "items": [
+            {
+              "id": "S4.c1",
+              "type": "course",
+              "title": "Dometrain · Hands-On: Learn Python",
+              "evidence": null
+            },
+            {
+              "id": "S4.c2",
+              "type": "course",
+              "title": "DeepLearning.AI · AI Python for Beginners",
+              "evidence": null
+            },
+            {
+              "id": "S4.c3",
+              "type": "course",
+              "title": "Udemy · Eric Roby · FastAPI – The Complete Course",
+              "evidence": null
+            },
+            {
+              "id": "S4.m1",
+              "type": "mini",
+              "title": "Typed CLI",
+              "evidence": null
+            },
+            {
+              "id": "S4.m2",
+              "type": "mini",
+              "title": "FastAPI service tested with pytest",
+              "evidence": null
+            },
+            {
+              "id": "S4.m3",
+              "type": "mini",
+              "title": "Async file processor",
+              "evidence": null
+            },
+            {
+              "id": "S4.cap",
+              "type": "capstone",
+              "title": "FastAPI fault-type tagger from photos, called by .NET",
+              "evidence": null
+            },
+            {
+              "id": "S4.exit",
+              "type": "exit",
+              "title": "Rebuild it from a blank repo",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "S5",
+          "title": "Agents and MCP",
+          "done": 0,
+          "total": 13,
+          "complete": false,
+          "items": [
+            {
+              "id": "S5.c1",
+              "type": "course",
+              "title": "Dometrain · GS: Microsoft Agent Framework in .NET",
+              "evidence": null
+            },
+            {
+              "id": "S5.c2",
+              "type": "course",
+              "title": "Dometrain · GS: Model Context Protocol",
+              "evidence": null
+            },
+            {
+              "id": "S5.c3",
+              "type": "course",
+              "title": "Udemy · Mehmet Ozkaya · Agentic AI with Agent Framework, MCP and .NET",
+              "evidence": null
+            },
+            {
+              "id": "S5.c4",
+              "type": "course",
+              "title": "DeepLearning.AI · Agentic AI",
+              "evidence": null
+            },
+            {
+              "id": "S5.c5",
+              "type": "course",
+              "title": "DeepLearning.AI · MCP with Anthropic",
+              "evidence": null
+            },
+            {
+              "id": "S5.c6",
+              "type": "course",
+              "title": "DeepLearning.AI · Agent Skills with Anthropic",
+              "evidence": null
+            },
+            {
+              "id": "S5.c7",
+              "type": "course",
+              "title": "DeepLearning.AI · Reasoning with o1",
+              "evidence": null
+            },
+            {
+              "id": "S5.m1",
+              "type": "mini",
+              "title": "MCP server in C# over the tracker API",
+              "evidence": null
+            },
+            {
+              "id": "S5.m2",
+              "type": "mini",
+              "title": "Tool-calling agent with human approval",
+              "evidence": null
+            },
+            {
+              "id": "S5.m3",
+              "type": "mini",
+              "title": "Agent traces in OpenTelemetry",
+              "evidence": null
+            },
+            {
+              "id": "S5.m4",
+              "type": "mini",
+              "title": "Agent eval suite and promptfoo red-team runs",
+              "evidence": null
+            },
+            {
+              "id": "S5.cap",
+              "type": "capstone",
+              "title": "Triage agent over MCP with approval, evals and a cost budget",
+              "evidence": null
+            },
+            {
+              "id": "S5.exit",
+              "type": "exit",
+              "title": "Present its design and failure modes",
+              "evidence": null
+            }
+          ]
+        }
+      ],
+      "gate_items": [
+        {
+          "id": "S.cert1",
+          "type": "cert",
+          "title": "SC-500 Cloud and AI Security Engineer",
+          "evidence": null
+        },
+        {
+          "id": "S.cert2",
+          "type": "cert",
+          "title": "CKA Certified Kubernetes Administrator",
+          "evidence": null
+        },
+        {
+          "id": "S.review",
+          "type": "gate",
+          "title": "A peer PR reviewed",
+          "evidence": null
+        },
+        {
+          "id": "S.star",
+          "type": "gate",
+          "title": "Three STAR answers: a design decision, a testing choice, the incident",
+          "evidence": null
+        },
+        {
+          "id": "S.oral",
+          "type": "gate",
+          "title": "Cold oral check on any file in the capstone",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "mastery",
+      "name": "Mastery",
+      "tagline": "Direction, depth and mentoring",
+      "gate": "Set technical direction, lead architecture and delivery, go deep on the runtime, understand models from the ground up, and mentor.",
+      "done": 0,
+      "total": 22,
+      "phases_done": 0,
+      "phases_total": 4,
+      "phases": [
+        {
+          "id": "M1",
+          "title": "Performance and the runtime",
+          "done": 0,
+          "total": 5,
+          "complete": false,
+          "items": [
+            {
+              "id": "M1.c1",
+              "type": "course",
+              "title": "Dometrain · ZTH: Garbage Collection in .NET",
+              "evidence": null
+            },
+            {
+              "id": "M1.c2",
+              "type": "course",
+              "title": "Dometrain · ZTH: Benchmarking",
+              "evidence": null
+            },
+            {
+              "id": "M1.c3",
+              "type": "course",
+              "title": "Dometrain · ZTH: 1 Billion Row Challenge",
+              "evidence": null
+            },
+            {
+              "id": "M1.c4",
+              "type": "course",
+              "title": "Dometrain · ZTH: Source Generators",
+              "evidence": null
+            },
+            {
+              "id": "M1.cap",
+              "type": "capstone",
+              "title": "Measured speed-ups on the tracker's hot paths",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "title": "System design leadership",
+          "done": 0,
+          "total": 4,
+          "complete": false,
+          "items": [
+            {
+              "id": "M2.c1",
+              "type": "course",
+              "title": "Dometrain · Hands-On: System Design (Beginners → Advanced, and Azure)",
+              "evidence": null
+            },
+            {
+              "id": "M2.c2",
+              "type": "course",
+              "title": "Dometrain · GS and DD: Solution Architecture",
+              "evidence": null
+            },
+            {
+              "id": "M2.c3",
+              "type": "course",
+              "title": "Dometrain · Career: Making High-Impact Decisions with AI",
+              "evidence": null
+            },
+            {
+              "id": "M2.cap",
+              "type": "capstone",
+              "title": "National-scale design doc; tender-discovery module on eTenders OCDS",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "M3",
+          "title": "ML foundations",
+          "done": 0,
+          "total": 4,
+          "complete": false,
+          "items": [
+            {
+              "id": "M3.c1",
+              "type": "course",
+              "title": "DeepLearning.AI · Machine Learning Specialization",
+              "evidence": null
+            },
+            {
+              "id": "M3.c2",
+              "type": "course",
+              "title": "DeepLearning.AI · Generative AI with LLMs",
+              "evidence": null
+            },
+            {
+              "id": "M3.c3",
+              "type": "course",
+              "title": "DeepLearning.AI · Retrieval Augmented Generation",
+              "evidence": null
+            },
+            {
+              "id": "M3.cap",
+              "type": "capstone",
+              "title": "Classical vs fine-tuned vs LLM report classification, honestly compared",
+              "evidence": null
+            }
+          ]
+        },
+        {
+          "id": "M4",
+          "title": "Lead and ship",
+          "done": 0,
+          "total": 6,
+          "complete": false,
+          "items": [
+            {
+              "id": "M4.c1",
+              "type": "course",
+              "title": "Dometrain · Career: Nailing the Behavioral Interview",
+              "evidence": null
+            },
+            {
+              "id": "M4.c2",
+              "type": "course",
+              "title": "Dometrain · GS: C# Interview Questions",
+              "evidence": null
+            },
+            {
+              "id": "M4.cap1",
+              "type": "capstone",
+              "title": "An open-source contribution merged upstream",
+              "evidence": null
+            },
+            {
+              "id": "M4.cap2",
+              "type": "capstone",
+              "title": "A real residents' association onboarded",
+              "evidence": null
+            },
+            {
+              "id": "M4.cap3",
+              "type": "capstone",
+              "title": "On-call runbook and a staged incident's postmortem",
+              "evidence": null
+            },
+            {
+              "id": "M4.cap4",
+              "type": "capstone",
+              "title": "A log of code reviews given",
+              "evidence": null
+            }
+          ]
+        }
+      ],
+      "gate_items": [
+        {
+          "id": "M.cert1",
+          "type": "cert",
+          "title": "SC-100 Cybersecurity Architect",
+          "evidence": null
+        },
+        {
+          "id": "M.cert2",
+          "type": "cert",
+          "title": "CKS Certified Kubernetes Security Specialist",
+          "evidence": null
+        },
+        {
+          "id": "M.star",
+          "type": "gate",
+          "title": "Three STAR answers: a design decision, a testing choice, the incident",
+          "evidence": null
+        }
+      ]
+    }
+  ]
+}

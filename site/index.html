@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C# AI Engineering Progress</title>
+  <meta name="description" content="Progress through a C#/.NET full-stack, AI-ready curriculum, Junior to Mastery. Every ticked item links to its evidence.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <p class="eyebrow">Morena Dlamini · learning in public</p>
+      <h1>C#/.NET full stack, AI-ready</h1>
+      <p class="lede">Junior → Intermediate → Senior → Mastery, with SQL Server depth as the edge.
+        An item is ticked only when it links to evidence: a merged PR, a green run, a certificate.</p>
+      <div class="overall" id="overall" aria-live="polite"></div>
+      <nav class="links">
+        <a href="https://github.com/MorenaDlamini/dotnet-ai-engineering">Repository</a>
+        <a href="https://github.com/MorenaDlamini/dotnet-ai-engineering/blob/master/CURRICULUM.md">The curriculum</a>
+        <a href="https://github.com/MorenaDlamini/dotnet-ai-engineering/blob/master/PROGRESS.md">Checklist</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="levels" id="levels" aria-label="Progress by level"></section>
+
+    <div class="toolbar">
+      <label class="toggle"><input type="checkbox" id="remaining-only"> Show only what's left</label>
+      <div class="legend" id="legend"></div>
+    </div>
+
+    <section id="detail" aria-label="Phases and items"></section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Generated from <code>progress/curriculum.yml</code> by <code>tools/progress.py</code> on every push.
+      No dates, by design: a phase is done when its exit test passes.</p>
+  </footer>
+
+  <noscript><p class="wrap">This page needs JavaScript. The same data is in
+    <a href="https://github.com/MorenaDlamini/dotnet-ai-engineering/blob/master/PROGRESS.md">PROGRESS.md</a>.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>

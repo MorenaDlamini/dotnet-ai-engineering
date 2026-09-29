@@ -23,3 +23,5 @@ jobs:
         run: python tools/status.py --check
       - name: Report ladder progress
         run: python tools/challenges.py --check
+      - name: Check the progress checklist and its generated files
+        run: python tools/progress.py --check

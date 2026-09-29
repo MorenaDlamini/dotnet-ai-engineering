@@ -120,10 +120,14 @@ The SDLC, run as Scrum on GitHub.
    never the solution. Each question and what I learned goes in `NOTES.md`. `AI_USAGE.md` is the
    longer version of this rule.
 9. **Solo, from a blank repo**, using only what that phase taught.
-10. **Where things live.** Minis in `worked-examples/<level>/<phase>/`. Capstones in the
+10. **Where things live.** Minis in this repo, under `<level>/<phase>/`. Capstones in the
     flagship's own repo. Once, at Intermediate, one sprint runs in Azure DevOps Boards and
     Pipelines, because that's the tool South African postings name most.
-11. **Level gate.** Build the level's capstone unaided, pass its exit test cold, and pass the
+11. **Progress.** Every item in this file is also in `progress/curriculum.yml`. An item counts as
+    done only when its `evidence` field holds a URL: a merged PR, a green run, a certificate.
+    `tools/progress.py` builds `PROGRESS.md` and the public dashboard from it, and CI rejects a
+    mini or capstone whose evidence isn't on GitHub.
+12. **Level gate.** Build the level's capstone unaided, pass its exit test cold, and pass the
     oral check below. A phase I already know can be tested out of by passing its exit test first.
 
 ## Explaining the why, and the break-fix loop
