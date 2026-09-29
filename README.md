@@ -46,7 +46,7 @@ modules/NNN-tier-topic/
   exercises/       stubs that fail
   solutions/       my solutions
   tests/           pytest that verifies both
-challenges/        the build ladders: one per phase, gated stage by stage
+challenges/        the build ladders, gated stage by stage (phase-00 is level J0)
 decisions/         one record per real decision, written at the time
 designs/           one page before any service starts
 scenarios/         ambiguous tickets, practised the way they actually arrive
@@ -76,6 +76,13 @@ make ladder                                  # regenerate the ladder table
 |---|---|---|---|
 | `m001_getting_started_log_parsing` | getting-started | log parsing | done |
 <!-- STATUS:END -->
+
+## Curriculum
+
+`CURRICULUM.md` is the plan: C#/.NET full stack, AI-ready, with SQL Server depth as the edge. It
+runs in four levels, Junior, Intermediate, Senior and Mastery. Each phase ends in a capstone,
+and each level ends in a gate passed cold. The flagship project it builds is a South African
+municipal service-delivery tracker.
 
 ## Challenges
 
