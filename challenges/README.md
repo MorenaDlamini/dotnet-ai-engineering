@@ -7,10 +7,11 @@ Modelled on CodeCrafters: one build per phase, broken into numbered stages, each
 acceptance test. `modules/` teaches a topic. `challenges/` builds the phase's project one
 provable step at a time.
 
-> **Status after the 2026-09-29 rebuild of `CURRICULUM.md`.** `phase-00-shell-linux-git` is still
-> current: it's `logkit`, the capstone of level J0. The ladders after it were written for the
-> old twelve-phase plan. They stay here for the record and are skipped until started, but they
-> no longer match the curriculum. They'll be rebuilt level by level, Junior first.
+> **Status after the 2026-10-01 rebuild of `CURRICULUM.md`.** `phase-00-shell-linux-git` is still
+> current: it's `logkit`, the capstone of phase 1.0. The ladders after it were written for older
+> plans (the twelve-phase plan and the municipal tracker). They stay here for the record and are
+> skipped until started, but they no longer match the curriculum. They'll be rebuilt level by
+> level around randmatch, Level 1 first.
 
 ## The rules
 

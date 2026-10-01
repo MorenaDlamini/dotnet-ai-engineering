@@ -2,25 +2,24 @@
 
 [![modules](https://github.com/MorenaDlamini/dotnet-ai-engineering/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/MorenaDlamini/dotnet-ai-engineering/actions/workflows/ci.yml)
 
-A self-verifying engineering repository for C#/.NET full stack and AI in .NET. Every topic
-becomes a **module**: a written lesson, a set of failing tests, my solutions, and an honest
-note about what it does not yet cover.
+How I engineer C#/.NET and AI, in the open. It holds the specs, decision records, tests that
+name their risk, and postmortems behind the product I'm building,
+[randmatch](https://github.com/MorenaDlamini/randmatch-recon). Every claim links to evidence.
 
-CI runs every module's tests on every push. A module is not finished because I say so.
-It is finished when the tests pass and the checklist in `CONTRIBUTING.md` is met.
+Each topic I go deep on becomes a **module**: a written explanation, a set of failing tests, my
+solutions, and an honest note about what it doesn't cover yet. CI runs every module's tests on
+every push. A module isn't finished because I say so. It's finished when the tests pass and the
+checklist in `CONTRIBUTING.md` is met.
 
-## Why this exists
+## Why it's built this way
 
-Notes decay. Tutorials are forgotten within a fortnight. What survives is material you
-had to *produce* rather than consume — so this repository is structured around authoring
-the lesson I wish I had found, for each thing I learn.
-
-Two side effects, both deliberate:
-
-- **Retrieval.** Writing exercises for a topic forces the kind of retrieval practice that
-  actually moves knowledge into long-term memory. Reading does not.
-- **Evidence.** The output is a public artifact that shows understanding, not just activity.
-  A green CI badge over every module is a different claim from a green commit graph.
+- **Evidence over claims.** A green CI badge over every module says something different from a
+  green commit graph. A progress item counts only when it links to a merged PR, a green run, or a
+  certificate.
+- **Produce, don't consume.** Explaining a topic well enough to write its exercises is how
+  knowledge sticks, and the result is something a reviewer can actually check.
+- **AI is visible, not hidden.** `AI_USAGE.md` sets the rules. Each PR records what an assistant
+  proposed, what I kept and rejected, and which tests caught what.
 
 ## Tiers
 
@@ -47,7 +46,7 @@ modules/NNN-tier-topic/
   exercises/       stubs that fail
   solutions/       my solutions
   tests/           pytest that verifies both
-challenges/        the build ladders, gated stage by stage (phase-00 is level J0)
+challenges/        the build ladders, gated stage by stage (phase-00 is phase 1.0)
 decisions/         one record per real decision, written at the time
 designs/           one page before any service starts
 scenarios/         ambiguous tickets, practised the way they actually arrive
@@ -80,22 +79,28 @@ make ladder                                  # regenerate the ladder table
 
 ## Curriculum
 
-`CURRICULUM.md` is the plan: C#/.NET full stack, AI-ready, with SQL Server depth as the edge. It
-runs in four levels, Junior, Intermediate, Senior and Mastery. Each phase ends in a capstone,
-and each level ends in a gate passed cold. The flagship project it builds is a South African
-municipal service-delivery tracker.
+`CURRICULUM.md` is the plan: C#/.NET full stack for fintech products, AI-ready. It runs in four
+levels, **1 · Ship, 2 · Own, 3 · Scale and 4 · Lead**. Each phase ends in a capstone, and each
+level ends in a gate passed cold.
+
+Every capstone adds to one product, **randmatch**: payout reconciliation for South African
+merchants who take payments through several providers.
+[`randmatch-recon`](https://github.com/MorenaDlamini/randmatch-recon) is the product,
+[`randmatch-ledger`](https://github.com/MorenaDlamini/randmatch-ledger) its clearing ledger, and
+[`randmatch-sim`](https://github.com/MorenaDlamini/randmatch-sim) the simulator whose planted
+breaks are the answer key.
 
 ## Progress through the levels
 
 <!-- PROGRESS:START -->
-**Now:** Junior · J0 — Linux, Git, SDLC and Scrum
+**Now:** Level 1 · Ship · 1.0 — Linux, Git, SDLC and Scrum
 
 | Level | Progress | Phases |
 |---|---|---|
-| Junior | `░░░░░░░░░░░░` 0/72 | 0/6 |
-| Intermediate | `░░░░░░░░░░░░` 0/73 | 0/6 |
-| Senior | `░░░░░░░░░░░░` 0/64 | 0/5 |
-| Mastery | `░░░░░░░░░░░░` 0/22 | 0/4 |
+| Level 1 · Ship | `░░░░░░░░░░░░` 0/75 | 0/6 |
+| Level 2 · Own | `░░░░░░░░░░░░` 0/74 | 0/6 |
+| Level 3 · Scale | `░░░░░░░░░░░░` 0/64 | 0/5 |
+| Level 4 · Lead | `░░░░░░░░░░░░` 0/22 | 0/4 |
 
 Every item links to its evidence in [PROGRESS.md](PROGRESS.md), and on the [dashboard](https://morenadlamini.github.io/dotnet-ai-engineering/).
 <!-- PROGRESS:END -->
